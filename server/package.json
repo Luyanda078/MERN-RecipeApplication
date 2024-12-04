@@ -1,10 +1,16 @@
 {
   "name": "server",
-  "version": "y",
+  "version": "1.0.0",
   "description": "y",
-  "main": "y",
+  "main": "index.js",
   "author": "Luyanda Shamase",
   "license": "MIT",
+  "type":"module",
+
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+ 
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
